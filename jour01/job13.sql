@@ -1,0 +1,1 @@
+SELECT * FROM laplateforme.etudiant WHERE age >= 18 AND age <= 25;
