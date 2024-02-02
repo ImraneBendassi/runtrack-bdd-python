@@ -7,6 +7,7 @@ mydp = mysql.connector.connect(
     database = "LaPlateforme",
 )
 
+
 cursor = mydp.cursor()
 
 cursor.execute("SELECT nom, capacite FROM salle")
