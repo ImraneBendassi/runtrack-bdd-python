@@ -6,5 +6,4 @@ mydb = _mysql_connector.connect(
     password = "",
     database = "laplateforme",
 
-
 )
