@@ -10,6 +10,7 @@ class Employe:
         )
         self.curseur = self.connexion.cursor()
 
+    
     def recuperer_employes(self):
         self.curseur.execute("SELECT * FROM employe")
         employes = self.curseur.fetchall()
