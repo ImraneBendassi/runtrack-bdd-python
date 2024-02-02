@@ -18,4 +18,5 @@ print("La superficie de La Plateforme est de", total_surface, "m2")
 
 cursor.close()
 
+
 mydp.close()
