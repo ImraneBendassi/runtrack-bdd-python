@@ -17,4 +17,5 @@ print("La capacite de toutes les salles est de :", total_surface)
 
 cursor.close()
 
+
 mydp.close()
